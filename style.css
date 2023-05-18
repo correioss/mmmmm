@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#titulo-superior{
+    position: absolute;
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+#texto-superior{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 298px;
+    font-size: 20px;
+}
+
+#partesuperior{
+    background-image: url(imageens/fundopret.svg);
+}
+
+#irformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    position: absolute;
+    width: 1440px;
+    height: 229px;
+}
+
+
+.informgrand{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px; 
+}
+
+
+.text{
+    margin: 90px 100px 359px;
+}
+
+
+#secaoimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-image: url(imageens/desenho.svg);
+}
+
+#sessaoimagem{
+    position: absolute;
+    width: 510px;
+    height: 605px;
+    left: 876px;
+    top: 781px;
+    background-image: url(imageens/foto.svg);
+    border-radius: 30px;
+}
+
+#sessaoimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#sessaotexto{
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: -760px;
+    top: 200px;
+    align-items: center;
+}
+
+#textoimagem{
+    font-size: 20px;
+}
+
+#formulario{
+    background: #303030;
+    position: absolute;
+    width: 1440px;
+    height: 638px;
+    left: 0px;
+    top: 1478px;
+    text-align: center;
+}
+
+#tituloformulario{
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 87px;
+    margin-bottom: 25px;
+}
+
+input{
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 25px;
+    width: 508px;
+    height: 72px;
+    padding-left: 30px;
+}
+
+button{
+    background: #C07212;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin: 50px;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px#c7822d8e;
+    transition: 0.5s;
+}
